@@ -25,7 +25,7 @@
     "static/style.less"
   ],
   "scripts": [
-    "public/src/musicoin-forum.js"
+    "public/src/qnt-forum.js"
   ],
   "templates": "static/templates"
 }
