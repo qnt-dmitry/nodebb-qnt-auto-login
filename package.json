@@ -1,11 +1,14 @@
 {
   "name": "nodebb-qnt-auto-login",
-  "version": "0.1.1",
+  "version": "1.0.2",
   "description": "NodeBB Cookie based auto login",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quantnet-golovin/nodebb-qnt-auto-login"
+    "url": "git+https://github.com/quantnet-golovin/nodebb-qnt-auto-login.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "nodebb",
@@ -21,8 +24,6 @@
   "bugs": {
     "url": "https://github.com/quantnet-golovin/nodebb-qnt-auto-login/issues"
   },
-  "readme": "",
-  "readmeFilename": "README.md",
   "dependencies": {
     "async": "^2.6.0",
     "passport-cookie": "^1.0.4",
@@ -40,5 +41,13 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1"
-  }
+  },
+  "homepage": "https://github.com/quantnet-golovin/nodebb-qnt-auto-login#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "golovin@quantnet.ai"
 }
