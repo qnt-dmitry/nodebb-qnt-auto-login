@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-qnt-auto-login",
-  "version": "1.0.2",
+  "name": "nodebb-plugin-qnt-auto-login",
+  "version": "1.0.24",
   "description": "NodeBB Cookie based auto login",
   "main": "library.js",
   "repository": {

@@ -12,10 +12,6 @@
     {
       "hook": "filter:config.get",
       "method": "extendConfig"
-    },
-    {
-      "hook": "filter:hotswap.prepare",
-      "method": "overrideLoginController"
     }
   ],
   "staticDirs": {
@@ -23,9 +19,6 @@
   },
   "less": [
     "static/style.less"
-  ],
-  "scripts": [
-    "public/src/qnt-forum.js"
   ],
   "templates": "static/templates"
 }

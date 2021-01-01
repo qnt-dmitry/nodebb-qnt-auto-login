@@ -19,8 +19,8 @@
   $(function() {
     var dialog = bootbox.dialog({
       title: 'Email address is required',
-      message: "Hello {fullname}, Looks like you have not provided or verified your email.
-       Email address is necessary to register in our forum.
+      message: "Hello {fullname}, Looks like you have not provided or verified your email. <br/>\
+       Email address is necessary to register in our forum. <br/>\
        Click 'Ok' to proceed to the profile page, where you will be able to add email address & verify the address.",
       buttons: {
         ok: {
